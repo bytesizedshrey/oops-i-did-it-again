@@ -14,6 +14,8 @@ console.log(`the name of user 1 is ${user1.name} and the name of user 2 is ${use
 
 //classes -> blueprint for creating objects
 //Constructor function -> function that is used to create objects
+//this -> it refers to the current object that is being created and its empty by default and it is used to assign values to the properties of the object that is being created.
+//prototypes -> It is used for inheritance and code reuse. it is a shared memory space that is used to store properties and methods that are shared by all instances of a class or function
 
 class dyson{
     constructor(product, price, color){
@@ -35,4 +37,3 @@ myDyson.powerOn();
 let herDyson = new dyson("Dyson V10", 40000, "Red");
 herDyson.powerOff();
 
-//prototypes -> a prototype is an object that is associated with every functions and objects in JavaScript. It allows us to add properties and methods to objects and functions. It is used for inheritance and code reuse. it is a shared memory space that is used to store properties and methods that are shared by all instances of a class or function
