@@ -40,6 +40,7 @@ getUser("harsh", function(data){
     },6000);
 })
 
+//question -> fetch user data and then fetch user posts and then fetch user comments on the posts. (callback hell)
 function instagaramsedatalao(username,cb){
     settimeout(() => {
         cb({unumber : 56, username : "rishi"});
