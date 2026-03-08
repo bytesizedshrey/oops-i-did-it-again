@@ -57,3 +57,11 @@ instagaramsedatalao("rishi", function(data){
         console.log(data.unumber); // Output: 56 after 15 seconds
     })
 })
+function sum(a,b){
+    console.log(a + b)
+}
+function calc (a, b, mercedes){
+    mercedes(a,b)
+}
+
+calc(2,3,sum)
